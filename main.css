@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+    font-family: "gothampro-bold" , Arial, sans-serif;
+    line-height: 1.42;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-fonts-smoothing: grayscale;
+}
+.container {
+    width: 1050px;
+    margin: 0 auto;
+}
+.header {
+    background: #27273e;
+    color: #fff;
+}
+.header .container {
+    position: relative;
+    height: 77px;
+}
+.logo__w {
+    display: inline-block;
+    position: absolute;
+    left: 19px;
+    top: 13px;
+}
+.Phone-contacts {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    text-align: right;
+}
+
+.phone-contacts__company {
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+.phone-contacts__text {
+    font-size: 14px;
+    font-weight: bold;
+    opacity: .7;
+    color: rgba(236, 30, 121, 0.7);
+}
+.banner-pic {
+    margin-bottom: 72px;
+}
+.img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.special p {
+    margin-bottom: 67px;
+    
+}
+.last-news__avatar {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
+.navigation__icon, .navigation__title {
+    display: inline-block;
+    vertical-align: top;
+}
+.navigation__linc {
+    text-decoration: none;
+}
+.navigation__title {
+    letter-spacing: 1.2px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ec1e79;
+    text-transform: uppercase;
+}
+.navigation__icon {
+    width: 20px;
+    height: 18px;
+    background: center center no-repeat;
+
+}
+.navigation__icon-w {
+    background-image: url('./img/icon/sidebar/w.png')
+}
+.navigation__icon-s {
+    background-image: url('./img/icon/sidebar/s.png')
+}
+.navigation__icon-n {
+    background-image: url('./img/icon/sidebar/n.png')
+}
+
+
+.navigation__link:hover .navigation__icon--w {
+    background-image: url('./img/icon/sidebar/w-hover.png')
+}
+.navigation__link:hover .navigation__icon--s {
+    background-image: url('./img/icon/sidebar/s-hover.png')
+}
+.navigation__link:hover .navigation__icon--n {
+    background-image: url('./img/icon/sidebar/n-hover.png')
+}
+
+.navigation__link:hover .navigation__title {
+    color: black;
+}
+
+
+
+.navigation__item--active .navigation__icon--w {
+    background-image: url('./img/icon/sidebar/w-hover.png')
+}
+.navigation__item--active .navigation__icon--s {
+    background-image: url('./img/icon/sidebar/s-hover.png')
+}
+.navigation__item--active .navigation__icon--n {
+    background-image: url('./img/icon/sidebar/n-hover.png')
+}
+.navigation__item--active .navigation__title {
+    color: black;
+}
